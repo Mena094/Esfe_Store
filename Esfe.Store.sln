@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esfe.Store.EN", "Esfe.Store.EN\Esfe.Store.EN.csproj", "{91CF3DA8-5F5D-4FC1-B060-43F85FE2FF24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfe.StoreDAL", "Esfe.StoreDAL\Esfe.StoreDAL.csproj", "{FFB888D6-CED6-445C-9950-4FC8E2FD492C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esfe.StoreDAL", "Esfe.StoreDAL\Esfe.StoreDAL.csproj", "{FFB888D6-CED6-445C-9950-4FC8E2FD492C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfe.StoreBL", "Esfe.StoreBL\Esfe.StoreBL.csproj", "{437093BA-0683-4F12-BAA6-7AD08135A387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FFB888D6-CED6-445C-9950-4FC8E2FD492C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB888D6-CED6-445C-9950-4FC8E2FD492C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB888D6-CED6-445C-9950-4FC8E2FD492C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437093BA-0683-4F12-BAA6-7AD08135A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437093BA-0683-4F12-BAA6-7AD08135A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437093BA-0683-4F12-BAA6-7AD08135A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437093BA-0683-4F12-BAA6-7AD08135A387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
