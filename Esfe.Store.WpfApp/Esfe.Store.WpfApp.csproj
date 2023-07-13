@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Esfe.Store.EN\Esfe.Store.EN.csproj" />
+    <ProjectReference Include="..\Esfe.StoreBL\Esfe.StoreBL.csproj" />
+  </ItemGroup>
+
+</Project>
